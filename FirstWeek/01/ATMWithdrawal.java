@@ -1,4 +1,4 @@
-public class Exercicio {
+public class ATMWithdrawal {
     int saldo = 1000;
 
     public void sacar(int valor) {
@@ -12,7 +12,7 @@ public class Exercicio {
     }
     
     public static void main(String[] args) {
-        Exercicio exec = new Exercicio();
+        ATMWithdrawal exec = new ATMWithdrawal();
         
         exec.sacar(1000);
     }
